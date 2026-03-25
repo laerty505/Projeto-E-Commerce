@@ -1,18 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CoreShop - Registrar</title>
 </head>
+
 <body>
     <form action="index.html">
-        <fieldset style="width: fit-content;">
-            <label for="idNomeRegistro">Usuário:</label>
-            <input type="text" name="" id="idNomeRegistro" placeholder="Digite seu usuário...">
-            <input type="radio" name="" id="idSexo">
+        <center>
+            <h1>Registrar-se</h1>
+            <fieldset style="width: fit-content;">
+                <legend>Registrar-se</legend>
+                <p>
+                    <label for="idNomeRegistro">Usuário:</label>
+                    <input type="text" name="" id="idNomeRegistro" placeholder="Digite seu usuário..">
+                </p>
 
-        </fieldset>
+                <p>
+                    <label for="idEmailRegistro">E-mail:</label>
+                    <input type="email" name="" id="idEmailRegistro" placeholder="Digite seu e-mail...">
+                </p>
+
+                <p>
+                    <label for="">Sexo:</label>
+                    <input type="radio" name="masculino" id="idMasc"><label for="idMasc">Masculino</label>
+                    <input type="radio" name="feminino" id="idFem"><label for="idFem">Feminino</label>
+                    <input type="radio" name="outro" id="idOutro"><label for="idOutro">Outro</label>
+                </p>
+
+                <p>
+                    <label for="idSenhaRegistro">Senha:</label>
+                    <input type="password" name="" id="idSenhaRegistro" placeholder="Digite sua senha..."><br><br>
+                    <label for="idConfirmarSenha">Confirmar senha:</label>
+                    <input type="password" name="" id="idConfirmarSenha" placeholder="Digite novamente sua senha...">
+                </p>
+
+                <p>
+                    <textarea name="" id="idObservacoes" cols="30" rows="5" placeholder="Obs..."></textarea>
+                </p>
+
+                <p>
+                    <input type="submit" value="Registrar-se">
+                    <input type="reset" value="Limpar">
+                </p>
+            </fieldset>
+        </center>
     </form>
 </body>
+
 </html>
