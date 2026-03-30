@@ -42,6 +42,41 @@
             <img src="imgs/rtx5060.jpg" alt="RTX 5060">
         </a>
     </table>
+    <br><br><br>
+    <center>
+        <h1>Pagamento</h1>
+    </center>
+    <form action="tela_principal.html" onsubmit="alert('Compra finalizada com sucesso!')">
+        <p>
+            <label for="idCep">CEP:</label>
+            <input type="text" name="" id="idCep" placeholder="Digite o CEP">
+        </p>
+        <p>
+            <label for="idEndereço">Endereço:</label>
+            <input type="text" name="" id="idEndereço" placeholder="Digite o endereço de entrega">
+        </p>
+        <p>
+            <label for="idNumero">Número:</label>
+            <input type="text" name="" id="idNumero" placeholder="Digite o número da residência">
+        </p>
+        <p>
+            <label for="idNumero">Telefone:</label>
+            <input type="text" name="" id="idNumero" placeholder="Digite um telefone para contato">
+        </p>
+        <p>
+            <label for="idFormaPagamento">Forma de pagamento:</label>
+            <select name="Forma de pagamento" id="idFormaPagamento">
+                <option value="" disabled selected></option>
+                <option value="">Pix</option>
+                <option value="">Boleto</option>
+                <option value="">Cartão de Crédito</option>
+                <option value="">Cartão de Débito</option>
+            </select>
+        </p>
+        <p>
+            <button type="submit">Realizar Pagamento</button>
+        </p>
+    </form>
 
 </body>
 
