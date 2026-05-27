@@ -27,5 +27,11 @@
     padding: 10px 20px;
     border-radius: 8px;
     cursor: pointer;
+}
 
+.texto-longo {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border-radius: 8px;
 }
