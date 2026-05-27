@@ -1,0 +1,4 @@
+Preto grafite: #0D1117
+Cinza escuro: #161B22
+Vermelho: #d62222
+Branco: #F5F5F5
