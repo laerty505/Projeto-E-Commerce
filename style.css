@@ -45,6 +45,33 @@ body {
 
 }
 
+.cabecalho {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background-color: #161B22;
+  border-bottom: 2px solid #d62222;
+}
+
+/* Telas pequenas (celular) */
+@media (max-width: 600px) {
+  .cabecalho {
+    grid-template-columns: 1fr;  /* vira coluna única */
+    text-align: center;
+  }
+}
+
+
+
+
 .botoes {
     background-color: #d62222;
     color: #111111;
