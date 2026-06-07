@@ -80,6 +80,14 @@ body {
     padding: 10px 20px;
     border-radius: 8px;
     cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botoes img {
+    width: 30px;
+    height: 30px;
 }
 
 .texto-longo {
@@ -133,5 +141,55 @@ body {
     border-color: #00B8FF;
 }
 
+/* === Catálogo de Produtos — Display Grid === */
+
+.catalogo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 110px 40px 40px 40px; /* 120px no topo por causa do cabecalho fixo */
+  box-sizing: border-box;
+}
+
+.card-produto {
+  background-color: #161B22;
+  border: 1px solid #d62222;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+}
+
+.card-produto .img-produto {
+  width: 100%;
+  max-width: 220px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.nome-produto {
+  font-size: 18px;
+  font-weight: bold;
+  color: #F5F5F5;
+  margin: 0;
+}
+
+/* Tela média (tablet) */
+@media (max-width: 900px) {
+  .catalogo-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Tela pequena (celular) */
+@media (max-width: 560px) {
+  .catalogo-grid {
+    grid-template-columns: 1fr;
+  }
+}
 
 

@@ -13,14 +13,14 @@
       font-family: "Elms Sans", sans-serif;
       font-optical-sizing: auto;
       font-weight: weight;
-      font-style: normal; 
+      font-style: normal;
       padding-top: 110px;
     }
   </style>
 </head>
 
 <body class="telaLogin">
-  <header class="cabecalho" >
+  <header class="cabecalho">
 
     <div>
       <a href="tela_principal.html">
@@ -36,106 +36,77 @@
       </a>
     </div>
   </header>
-  <center>
-    <table>
-      <tr>
-        <td>
-          <p>RTX 3050</p>
-        </td>
-        <td>
-          <a href="detalhes_3050.html">
-            <img src="imagens/rtx3050.jpg" alt="RTX 3050">
-          </a>
-        </td>
-        <td>
-          <button onclick="alert('Produto adicionado ao carrinho!')" class="botoes"><img src="imagens/carrinho.png"
-              alt="" width="30"></button>
-        </td>
 
-        <td>
-          <p>RTX 4060</p>
-        </td>
-        <td>
-          <a href="detalhes_4060.html">
-            <img src="imagens/rtx4060.jpg" alt="RTX 4060">
-          </a>
-        </td>
-        <td>
-          <button onclick="alert('Produto adicionado ao carrinho!')" class="botoes"><img src="imagens/carrinho.png"
-              alt="" width="30"></button>
-        </td>
+  <main class="catalogo-grid">
 
-        <td>
-          <p>RTX 5060</p>
-        </td>
-        <td>
-          <a href="detalhes_5060.html">
-            <img src="imagens/rtx5060.jpg" alt="RTX 5060">
-          </a>
-        </td>
-        <td>
-          <button onclick="alert('Produto adicionado ao carrinho!')" class="botoes"><img src="imagens/carrinho.png"
-              alt="" width="30"></button>
-        </td>
-      </tr>
-    </table>
-  </center>
-  <br><br><br><br><br>
-  <center>
-    <table>
-      <tr>
-        <td>
-          <p>RX 6800</p>
-        </td>
-        <td>
-          <a href="detalhes_rx6800.html">
-            <img src="imagens/rx6800.jpg" alt="RX 6800" width="230" height="230">
-          </a>
-        </td>
-        <td>
-          <button onclick="alert('Produto adicionado ao carrinho!')" class="botoes"><img src="imagens/carrinho.png"
-              alt="" width="30"></button>
-        </td>
-
-        <td>
-          <p>RX 7600</p>
-        </td>
-        <td>
-          <a href="detalhes_rx7600.html">
-            <img src="imagens/rx7600.jpg" alt="RX 7600" width="230" height="230">
-          </a>
-        </td>
-        <td>
-          <button onclick="alert('Produto adicionado ao carrinho!')" class="botoes"><img src="imagens/carrinho.png"
-              alt="" width="30"></button>
-        </td>
-
-        <td>
-          <p>RX 9060 XT</p>
-        </td>
-        <td>
-          <a href="detalhes_rx9060.html">
-            <img src="imagens/rx9060.jpg" alt="RX 9060 XT" width="230" height="230">
-          </a>
-        </td>
-        <td>
-          <button onclick="alert('Produto adicionado ao carrinho!')" class="botoes"><img src="imagens/carrinho.png"
-              alt="" width="30"></button>
-        </td>
-      </tr>
-    </table>
-    <div class="promocao">
-
-      <img src="imagens/rtx4060.jpg" alt="RTX 4060">
-
-      <h2>RTX 4060</h2>
-
-      <p class="preco-antigo">R$ 2.999</p>
-
-      <p class="preco-promocao">R$ 2.399</p>
-
+    <div class="card-produto">
+      <p class="nome-produto">RTX 3050</p>
+      <a href="detalhes_3050.html">
+        <img class="img-produto" src="imagens/rtx3050.jpg" alt="RTX 3050">
+      </a>
+      <button onclick="alert('Produto adicionado ao carrinho!')" class="botoes">
+        <img src="imagens/carrinho.png" alt="" width="30">
+      </button>
     </div>
-  </center>
+
+    <div class="card-produto">
+      <p class="nome-produto">RTX 4060</p>
+      <a href="detalhes_4060.html">
+        <img class="img-produto" src="imagens/rtx4060.jpg" alt="RTX 4060">
+      </a>
+      <button onclick="alert('Produto adicionado ao carrinho!')" class="botoes">
+        <img src="imagens/carrinho.png" alt="" width="30">
+      </button>
+    </div>
+
+    <div class="card-produto">
+      <p class="nome-produto">RTX 5060</p>
+      <a href="detalhes_5060.html">
+        <img class="img-produto" src="imagens/rtx5060.jpg" alt="RTX 5060">
+      </a>
+      <button onclick="alert('Produto adicionado ao carrinho!')" class="botoes">
+        <img src="imagens/carrinho.png" alt="" width="30">
+      </button>
+    </div>
+
+    <div class="card-produto">
+      <p class="nome-produto">RX 6800</p>
+      <a href="detalhes_rx6800.html">
+        <img class="img-produto" src="imagens/rx6800.jpg" alt="RX 6800">
+      </a>
+      <button onclick="alert('Produto adicionado ao carrinho!')" class="botoes">
+        <img src="imagens/carrinho.png" alt="" width="30">
+      </button>
+    </div>
+
+    <div class="card-produto">
+      <p class="nome-produto">RX 7600</p>
+      <a href="detalhes_rx7600.html">
+        <img class="img-produto" src="imagens/rx7600.jpg" alt="RX 7600">
+      </a>
+      <button onclick="alert('Produto adicionado ao carrinho!')" class="botoes">
+        <img src="imagens/carrinho.png" alt="" width="30">
+      </button>
+    </div>
+
+    <div class="card-produto">
+      <p class="nome-produto">RX 9060 XT</p>
+      <a href="detalhes_rx9060.html">
+        <img class="img-produto" src="imagens/rx9060.jpg" alt="RX 9060 XT">
+      </a>
+      <button onclick="alert('Produto adicionado ao carrinho!')" class="botoes">
+        <img src="imagens/carrinho.png" alt="" width="30">
+      </button>
+    </div>
+
+  </main>
+
+  <div class="promocao">
+    <img src="imagens/rtx4060.jpg" alt="RTX 4060">
+    <h2>RTX 4060</h2>
+    <p class="preco-antigo">R$ 2.999</p>
+    <p class="preco-promocao">R$ 2.399</p>
+  </div>
 
 </body>
 
