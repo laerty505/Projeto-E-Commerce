@@ -21,7 +21,10 @@ body {
 .botoesVoltar {
     position: absolute;
     right: 0%;
+}
 
+.ancoras-sair-sobre {
+  color: brown;
 }
 
 .cabecalho {
