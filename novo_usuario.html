@@ -7,9 +7,8 @@
     <title>CoreShop - Registrar</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        
         @import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-        
+
         @font-face {
             font-family: 'Orbitron';
             src: url('../fontes/Orbitron-VariableFont_wght.ttf') format('truetype');
@@ -54,11 +53,13 @@
 
                 <p>
                     <label for="idSenhaRegistro">Senha:</label>
-                    <input type="password" name="senha" id="idSenhaRegistro" placeholder="Digite sua senha..."
-                        required><br><br>
+                    <input type="password" name="senha" id="idSenhaRegistro" placeholder="Digite sua senha..." required
+                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                        title="Deve conter pelo menos um número, uma letra maiúscula, uma letra minúscula e 8 caracteres."><br><br>
                     <label for="idConfirmarSenha">Confirmar senha:</label>
                     <input type="password" name="senha" id="idConfirmarSenha"
-                        placeholder="Digite novamente sua senha..." required>
+                        placeholder="Digite novamente sua senha..." required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                        title="Deve conter pelo menos um número, uma letra maiúscula, uma letra minúscula e 8 caracteres.">
                 </p>
 
                 <p>

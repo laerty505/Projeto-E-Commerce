@@ -43,8 +43,9 @@
 
                 <p>
                     <label for="idSenhaLogin">Senha:</label>
-                    <input type="password" name="senha" placeholder="Digite sua senha..." id="idSenhaLogin"
-                        required><br><br>
+                    <input type="password" name="senha" placeholder="Digite sua senha..." id="idSenhaLogin" required
+                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                        title="Deve conter pelo menos um número, uma letra maiúscula, uma letra minúscula e 8 caracteres."><br><br>
                 </p>
 
                 <a href="novo_usuario.html">Registrar</a><br><br>
